@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 body{
     background:#1b1b1b;
     font-family: 'Inter', sans-serif;
-    /* font-family: 'Lobster', cursive; */
+   
 }
 
 button{
@@ -40,7 +40,7 @@ h3{
 }
 
 h4{
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: bold;
    
 }
