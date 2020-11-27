@@ -38,7 +38,7 @@ export const fade = {
 };
 
 export const photoAnim = {
-  hidden: { scale: 1.5, opacity: 0 },
+  hidden: { scale: 1.5, opacity: 0, transition: { duration: 1 } },
   show: {
     scale: 1,
     opacity: 1,
