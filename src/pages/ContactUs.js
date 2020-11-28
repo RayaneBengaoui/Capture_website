@@ -21,19 +21,19 @@ const ContactUs = () => {
         <Hide>
           <Social variants={titleAnim}>
             <Circle />
-            <h2>Send Us a Message</h2>
+            <h4>Send Us a Message</h4>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnim}>
             <Circle />
-            <h2>Send a email</h2>
+            <h4>Send a email</h4>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnim}>
             <Circle />
-            <h2>Social Media</h2>
+            <h4>Social Media</h4>
           </Social>
         </Hide>
       </div>
@@ -45,11 +45,17 @@ const ContactStyle = styled(motion.div)`
   padding: 5rem 10rem;
   color: #353535;
   min-height: 90vh;
+  @media (max-width: 1500px) {
+    padding: 2rem;
+  }
 `;
 
 const Title = styled.div`
   margin-bottom: 4rem;
   color: black;
+  @media (max-width: 1500px) {
+    margin-top: 5rem;
+  }
 `;
 
 const Hide = styled.div`
@@ -66,8 +72,9 @@ const Circle = styled.div`
 const Social = styled(motion.div)`
   display: flex;
   align-items: center;
-  h2 {
+  h4 {
     margin: 2rem;
+    font-weight: lighter;
   }
 `;
 
