@@ -24,13 +24,13 @@ function App() {
           <Route path="/Capture_website/" exact>
             <AboutUs />
           </Route>
-          <Route path="/work" exact>
+          <Route path="/Capture_website/work" exact>
             <OurWork />
           </Route>
-          <Route path="/work/:id">
+          <Route path="/Capture_website/work/:id">
             <MovieDetail />
           </Route>
-          <Route path="/contact">
+          <Route path="/Capture_website/contact">
             <ContactUs />
           </Route>
         </Switch>
