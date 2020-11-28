@@ -16,11 +16,12 @@ function App() {
   const location = useLocation();
   return (
     <div className="App">
+      {console.log(location.pathname)}
       <GlobalStyle />
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
-          <Route path="/" exact>
+          <Route path="/Capture_website/" exact>
             <AboutUs />
           </Route>
           <Route path="/work" exact>
