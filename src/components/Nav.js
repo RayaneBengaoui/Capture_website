@@ -15,27 +15,31 @@ const Nav = () => {
       </h1>
       <ul>
         <li>
-          <Link to="/">1. About Us</Link>
+          <Link to="/Capture_website/">1. About Us</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/" ? "50%" : "0%" }}
+            animate={{ width: pathname === "/Capture_website/" ? "50%" : "0%" }}
           />
         </li>
         <li>
-          <Link to="/work">2. Our Work</Link>
+          <Link to="/Capture_website/work">2. Our Work</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/work" ? "50%" : "0%" }}
+            animate={{
+              width: pathname === "/Capture_website/work" ? "50%" : "0%",
+            }}
           />
         </li>
         <li>
-          <Link to="/contact">3. Contact Us</Link>
+          <Link to="/Capture_website/contact">3. Contact Us</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/contact" ? "50%" : "0%" }}
+            animate={{
+              width: pathname === "/Capture_website/contact" ? "50%" : "0%",
+            }}
           />
         </li>
       </ul>
